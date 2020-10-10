@@ -1,0 +1,112 @@
+<!--
+Name: Jonathan Petani
+Date: 4/17/2019
+Assignment: Group Project
+-->
+<html>
+<head>
+<title>Flags</title>
+<link href = 'mod1.css' rel = 'stylesheet'/>
+<style>
+div.sidebar{height:2780;}
+</style>
+</head>
+<body align = center>
+<header>
+<img id = 'banner' src='Aoeiii-cover.jpg' width = '100' height = '100' alt = 'aoe3 banner'/>
+<h1 align = center>The Age of Empires 3 Modding Database</h1>
+<p id='caption' align = center>Your source for all information related to modifiying this outstanding game.</p><br>
+
+</header>
+<div id='wrapper' align = center><nav>
+<ul>
+
+<li><a href='FHomePage.htm'>Home</a></li>
+<li><a href='introduction.htm'>Intro to Aoe3</a></li>
+<li><a href='SpecForm.htm'>Mod Specs Form</a></li>
+<li><a href='BackgroundForm.html'>Background Form</a></li>
+<li><a href='FAQ.htm'>FAQ</a></li>
+<li><a href='Flags.htm'>Flags</a></li>
+</ul>
+</nav>
+<div class='sidebar'>
+
+</div>
+<div id='main' style='padding-bottom: 87.5px;width:77.5%'>
+<h1>Adding A Custom Flag</h1>
+<img id = '?' src='flags.png' width='500' height='200' alt='Question Marks'/>
+<dl>
+<h2 id='head1'>A tutorial in customizing your own flag</h2>
+
+<h2>Concept</h2>
+
+<p>Basically we're just telling the engine to use a different texture for a predetermined file name that's already in the game. </p>
+
+<p>We do this by saving our custom flag image using the same file name that the game assigns to any chosen flag. </p>
+
+<p>In other words, if we want to replace the French flag in our game with our custom map, we simply save the custom flag file using the same name as the vanilla French flag. </p>
+
+<p>In order to tell the engine to replace the texture, we simply put it higher in the art file folder hierarchy. </p>
+
+<img src='flag1.jpg' width="500px">
+
+<h2>Materials</h2>
+
+<b>Three things are required:</b>
+
+<p>1. Access to the web (for flag pictures. Not necessary if you’re creating a totally custom flag). </p>
+
+<p>2. A paint program capable of handling .tga (Targa) image files. </p>
+
+<p>3. AOE3ED (a free program used to view the contents of bars and convert files) </p>
+
+<h2>Getting Started</h2>
+
+<p>The first thing to do is create a folder somewhere on your computer. Name it AOE3 Mods. This is where we’ll set up our mod files. </p>
+
+<p>Next thing you need is a picture of the flag you want to add. There are many sources on the web for free flag images. </p>
+
+<p>Alternatively you could create one from scratch using your paint program. Any image will do but be mindful that we’re going to size it into a square so some distortion may occur depending on the original size and content of your image. </p>
+
+<img src='flags2.jpg' width="500px">
+
+<h2>Using AOE3ED</h2>
+
+<p>For people not familiar with AOE3ED (which I’ll call just ED), basically there’s two components to it, an archive viewer and a file converter. </p>
+
+<p>The reason we use ED is because AOE3 files are compressed into files which windows and standard programs won’t open. </p>
+
+<p>Examples are .bar, .xmb, and .ddt extension files. ED allows us to open these files as well as convert more ordinary files to these extensions. ED’s viewer goes further as you can preview .bar files without having the extract them. Considering the Art1.bar itself is about 430 Megs, this is good news. </p>
+
+<p>In creating our custom flag we want to find the original flag files for reference. DL and install ED and open up the viewer. </p>
+
+<p>Using the file menu at top, click open and navigate to the C/Program Files/Microsoft Games/AOE3/Art folder and click on the art2.bar file. </p>
+
+<p>You’ll see it will generate a list of the bar’s contents. Notice at the bottom of the ED viewer window there is a space called “search for file” ( a wondrous feature) and typing in “flag” will update the file list to include only the ones that contain the word “flag”. </p>
+
+<p>Hoped this helped!</p>
+
+
+
+<a href='#banner'><button>&#9757; To Top Of The Page</button></a>
+
+</div>
+
+
+
+
+<div class='sidebar'>
+
+</div>
+</div>
+<br>
+<br>
+<footer>
+<div align = center>
+<address><p>Jonathan Petani, Matthew Hak &copy; 3/13/2019 </p></address>
+<a href = 'https://drive.google.com/open?id=1XTbnQ6qyFyf_CS2SKWyzth_TpIgSFB2Q'> File with Image Urls</a>
+
+</div> 
+</footer>
+</body>
+</html>

@@ -1,0 +1,197 @@
+/*
+Name: Jonathan Petani, Matthew Hak
+Date: 4/17/2019
+Assignment: Group Project
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial Black;
+	background-color: rgba(0, 0, 0, .065);
+}
+
+p {
+	font-family: Garamond;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, .065);
+}
+
+nav {
+	margin-top: -15px;
+	margin-left: -40px;
+}
+
+nav > ul > li{
+	float: left;
+	display: block;
+	background-image: url(wood.jpg);
+	color: brown;
+	border: 5px solid brown;
+	padding: 0 46.9 0 46.9;
+	font-family: Comic Sans MS;
+}
+
+	
+div#thoughts > img {
+	width: 40%;
+	height: 30%;
+	float: left;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+div#thoughts > p {
+	font-size: 3em;
+	float: left;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+}
+body {
+	background-image: url(wood1.jpg);
+}
+
+header {
+	background-image: url(silver.jpg);
+	max-width: 1100px;
+	margin: auto;
+	/*margin-left: 72px;*/
+}
+
+img#banner {
+	width: 100%;
+	height: 25%;
+}
+
+div#wrapper {
+	max-width: 1100px;
+	margin: auto;
+	padding-bottom: 10px;
+	/*border-image: url(iron.jpg) 50;*/
+}
+
+div#main {
+	float: left;
+	background-image: url(oldpaper.jpg);
+	width: 73%;
+	padding: 0 10px 0px/*305px*/ 10px;
+	border: solid 1px #3e3e28;
+}
+
+div#sidebar {
+	background-image: url(goldbg.jpg);
+	float: left;
+	width: 23%;
+	padding: 0 10px 0 10px;
+	border: solid 1px #3e3e28;
+}
+
+div#sidebar > img {
+	width: 35%;
+	height: 25%;
+	
+}
+
+dt.question {
+	font-size: 1.9em;
+	font-family: Impact;
+	text-decoration: underline double;
+}
+
+dd.answer {
+	font-size: 1.4em;
+	font-family: Arial;
+}
+
+dl > dt, dd {
+	background-color: rgba(0, 0, 0, .065);
+}
+legend {
+	font-family: Helvetica;
+	font-size: 1.5em;
+}
+
+div#sidebar > p, h2 {
+	padding: 15 0 0 10;
+
+}
+
+div.sidebar {
+	background-image: url(goldbg.jpg);
+	float: left;
+	width: 10%;
+	height: 394%;
+	border: solid 1px #3e3e28;
+}
+
+div#nav2 {
+	padding-bottom: 140px;
+	padding-right: 40px;
+}
+
+img#main-image {
+	width: 30%;
+	height: 50%;
+}
+
+div#sample-images > a > img {
+	width: 35%;
+	height: 35%;
+	padding: 20px;
+}
+
+div#note {
+	background-color: yellow;
+	border: dashed 1px black;
+	padding: 10px;
+}
+
+h2#head1 {
+	font-size:2.3em;
+	color: green;
+	text-decoration: overline underline;
+	text-shadow: 1px 1px yellow;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+	
+}
+
+h2#head2 {
+	font-size: 2.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-shadow: 2px 2px blue;
+	text-decoration:overline underline wavy;
+	color: pink;
+}
+
+h2#head3 {
+	font-size: 2.7em;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-shadow: 3px 3px red;
+	text-decoration:underline;
+	color: orange;
+}
+
+img.faqImg {
+	width: 60%;
+	height: 40%;
+	padding: 20px;
+}
+button {
+	background-image: linear-gradient(to left, yellow, green);
+	color: purple;
+	font-family: Impact;
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+footer {
+	background-image: url(silver.jpg);
+	padding-top: 20px;
+	clear: both;
+	max-width: 1100px;
+	margin: auto;
+	/*margin-left: 72px;*/
+	
+
+
+}

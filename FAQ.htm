@@ -1,0 +1,87 @@
+<!--
+Name: Jonathan Petani
+Date: 4/17/2019
+Assignment: Group Project
+-->
+<html>
+<head>
+<title>FAQ</title>
+<link href = 'mod1.css' rel = 'stylesheet'/>
+<style>
+div.sidebar{height:4080;}
+</style>
+</head>
+<body align = center>
+<header>
+<img id = 'banner' src='Aoeiii-cover.jpg' width = '100' height = '100' alt = 'aoe3 banner'/>
+<h1 align = center>The Age of Empires 3 Modding Database</h1>
+<p id='caption' align = center>Your source for all information related to modifiying this outstanding game.</p><br>
+
+</header>
+<div id='wrapper' align = center><nav>
+<ul>
+
+<li><a href='FHomePage.htm'>Home</a></li>
+<li><a href='introduction.htm'>Intro to Aoe3</a></li>
+<li><a href='SpecForm.htm'>Mod Specs Form</a></li>
+<li><a href='BackgroundForm.html'>Background Form</a></li>
+<li><a href='FAQ.htm'>FAQ</a></li>
+<li><a href='Flags.htm'>Flags</a></li>
+</ul>
+</nav>
+<div class='sidebar'>
+
+</div>
+<div id='main' style='padding-bottom: 87.5px;width:77.5%'>
+<h1>Frequently Asked Questions</h1>
+<img  src='question.gif' width='100' height='100' alt='Question Marks'/>
+<dl>
+<h2 id='head1'>Questions About Age of Empires 3</h2>
+<img class = 'faqImg' src='all3.jpg' width='100' height='100' alt='Age3'/>
+<dt class = 'question'>What is Age of Empires 3?</dt>
+<dd class = 'answer'>Age of Empires 3 is a Real Time Strategy Computer Game created by Esemble Studios and Microsoft. It is a game available on Windows and Mac OSX. Is the fourth installment in the Age of Empires series if you count Age of Mythology.</dd>
+<dt class = 'question'>What sets Age of Empires 3 apart from other games in the series?</dt>
+<dd class = 'answer'>There are quite a few differences. One is the aspect of a homecity: a place you can access in your ui where you can select cards that deliver different resources/techs/units to you. Another difference is that drop off points are not used for gathering resources initially though such a system can be implemented if so desired.</dd>
+<dt class = 'question'>What is a mod?</dt>
+<dd class = 'answer'>Mod is short for modification. On our site, we discuss the modification of the Age of Empires 3 game. By modification, we mean editing, deleting, and inserting files into the game directory such that it effects the way the game looks and the content available.</dd>
+<dt class = 'question'>Is it legal to mod Age of Empires 3</dt>
+<dd class = 'answer'>Under the Microsoft terms of usage, you can indeed modify the game. There is a catch though. You cannot profit from this. If you make a mod and try to sell it or sell merchandise related to your mod, you would be in legal trouble. Therefore, any mod you make is mandated to be free to download when you make it public.</dd>
+<dt class = 'question'>Will I break my game if I mod it?</dt>
+<dd class = 'answer'>If you are refering to rendering it useless forever then no. Even if you did something that prevented Age of Empires 3 from running on your machine, all you would need to do is reinstall it either by disc or through the source like Steam that you play it on. If you do not pay attention to changes to files you make or delete a important file, you can actually break the game or parts of it. For instance, syntax errors in an ai script file will render the in game ai you play with useless resulting in a XS Error message upon loading a match with the ai. However, the game will still open and multiplayer or scenarios that use other ai files wouldn't suffer. Your best chance of avoiding these issues is to make backups of files used in the data folder mainly or any ones that vital to the game. As long as you pay attention to warnings and directions we give you, nothing will happen.</dd>
+</dl>
+<dl>
+<h2 id='head2'>General Modding Questions</h2>
+<img class = 'faqImg' src='uzbek.png' width='100' height='100' alt='Uzbek Yurts'/>
+<dt class = 'question'>How does modding Age of Empires 3 work in general?</dt>
+<dd class = 'answer'>Well in a general sense, there is multiple files and folders that effect the game. There a few main ones to consider to start. Techtree.xml codes all the in game technologies, cards, and working of civilizations themselves. If you wish to make a new civilization or create a new technology to research, this is what to modify. Proto.xml effects units and buildings. Creating a new unit or a building in a mod would require work to this file. Stringtable.xml holds all strings used by the game such as unit/technology descriptions, dialog, and other text. Every item in the proto and techtree files has a stringid found in stringtable. Thus to search for a technology, you could search stringtable.xml for the ingame name of what you desire then match it's stringid in a find request in a text editor like notepad++ in either the proto or treetree files. Also, filenames ending in x refer to The Warchiefs expansion and y refers to The Asian Dynesties expansion. You can create alternative techtree, proto, and stringtable files yourself like they did with the expansion so that your mod allows you to retain the original game.</dd>
+<dt class = 'question'>When I am modding, is the sky's the limits as far as what I can do?</dt>
+<dd class = 'answer'>Listed on many sites are list of modding do's and don'ts. The game's engine is in many ways hardcoded. Some things are hardcoded such that you would need to write some assembly or C++ code just to tamper with it. Also, the game only accepts certain model and animation formats. This could change in the future as new unhardcode (uhc) patches are released by danielperriera and kangliff. </dd>
+<dt class = 'question'>Can I have multiple mods existing in my game directory with no issues?</dt>
+<dd class = 'answer'>This is entirely up to how you program your mods. You will definitly need seperate techtree, proto, and stringtable files for each mod you have amongst other related data files. If you follow this method, you could have several mods in one game folder. Also, you can just copy and paste the contents of your bin folder inside the Age of Empires 3 folder and paste into a empty folder. To select a mod to play, go into the mod's bin folder and double click the agey.exe executable. It may be useful to have desktop shortcuts for these executables so you can reach them from the desktop.</dd>
+</dl>
+<h2 id='head3'>Common Questions Pertaining to Specific Aspects of Modding</h2>
+<img class = 'faqImg' src='uu.png' width='100' height='100' alt='Aoe1HD image'/>
+<dl>
+<dt class = 'question'>Why is there a 14 civilization limit in game for ai selection? Why can't I give a new civilization wonders or firepits? Why can there only be a maximum of two teams in one game?</dt>
+<dd class = 'answer'>Just install the unhardcode patch. It's jsut that simple. It will correct all these issues. Of course there is other work arounds like coding a custom launcher to select the 14 civilizations, or using campaign civilizations to access the ability to make wonders or firepits for civs. But these are archaic methods compared to the UHC patch.</dd>
+<dt class = 'question'>Where is all the icons and other images for the game located? I need to access these and can't find them in the folders.</dt>
+<dd class = 'answer'>All the icons, portraits, and other related image files are stored in Art.bar files. There are 5 of these. To extract the information from them, you must have the program Aoe3ED on your computer to search the files in each bar file and then transfer it out of your computer into a suitable format such as targa. From targa, you can convert to png later.</dd>
+<dt class = 'question'>How do I change in game music such as the songs that play during a match, and the ones that play during certain situations like when sieging a building.</dt>
+<dd class = 'answer'>You need to go the sound folder in your directory and edit or add to the tags in the playlist.xml file there. You need to place the items in the order you wish them to be played in game. The items in the this playlist will be played in all games. Otherwise, you can use a map trigger to enable a specific song to play depending on a factor such as civilization.</dd>
+</dl>
+</div>
+<div class='sidebar'>
+
+</div>
+</div>
+<br>
+<br>
+<footer>
+<div align = center>
+<address><p>Jonathan Petani, Matthew Hak &copy; 3/13/2019 </p></address>
+<a href = 'https://drive.google.com/open?id=1XTbnQ6qyFyf_CS2SKWyzth_TpIgSFB2Q'> File with Image Urls</a>
+
+</div> 
+</footer>
+</body>
+</html>

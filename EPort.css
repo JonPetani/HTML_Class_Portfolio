@@ -1,0 +1,107 @@
+/*
+Jonathan Petani
+4/28/2019
+EPortfolio
+*/
+@font-face {
+	src: url(KGHAPPY.ttf);
+	font-family: KGHAPPY;
+}
+
+@font-face {
+	src: url(KGHAPPYSolid.ttf);
+	font-family: KGHAPPYSolid;
+}
+body {
+	background-color: /*cyan*/#1F2833;
+}
+header {
+	background-color: /*pink*/#45A29E;
+}
+nav {
+	background-color: /*orange*/#C5C6C7;
+	max-width: 200px;
+	float: left;
+	padding: 20px;
+	padding-bottom: 0px;
+}
+nav > ul > li {
+	font-size: 2em;
+}
+ul > li {
+	line-height:1.5em;
+}
+ul > li > ul > li {
+	line-height:1.9em;
+}
+a {
+	font-family: Arial Black;
+}
+h2#FirstHeading {
+	clear:both;
+}
+p#pr {
+	padding-left: 50px;
+}
+h1, h2, h3 {
+	font-family: KGHAPPYSolid;
+}
+h1 {
+	text-decoration: overline underline solid;
+	color: blue;
+}
+h2 {
+	text-decoration: underline wavy;
+	color: /*brown*/#0B0C10;
+}
+div#f {
+	float:left;
+}
+h3 {
+	text-decoration: underline dashed;
+	color: red;
+}
+img#home1 {
+	margin-left:470px;
+}
+img#home2 {
+	margin-left:370px;
+}
+p { 
+font-family: KGHAPPYSolid;
+font-size: 1.1em;
+color: /*brown*/#0B0C10;
+}
+main {
+	background-color: /*lime*/#66FCF1;
+	padding: 10px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+img.Site {
+	width: 60%;
+	height: 50%;
+}
+
+img#E {
+	border: solid red 3px
+}
+dd, dt, li, td {
+	font-family: KGHAPPYSolid;
+
+}
+div.pad {
+	margin-left: 310px;
+}
+p#Banner {
+	font-size: 5em;
+	font-family: KGHAPPY;
+	color: /*green*/#C5C6C7;
+}
+
+
+footer {
+	background-color: /*pink*/#45A29E;
+	padding: 10px;
+}
